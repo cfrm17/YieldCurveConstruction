@@ -24,5 +24,7 @@ Yield curves are derived or bootstrapped from observed market instruments that r
 
 The objective of the bootstrap algorithm is to find the zero yield or discount factor for each maturity point and cash flow date sequentially so that all curve instruments can be priced back to the market quotes. All bootstrapping methods build up the term structure from shorter maturities to longer ones.
 
-You can find more details at
-https://finpricing.com/lib/IrCurveIntroduction.html
+References:
+
+https://finpricing.com/lib/EqVariance.html
+
